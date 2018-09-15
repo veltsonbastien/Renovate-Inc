@@ -1,0 +1,486 @@
+
+body
+{
+
+background: #EEEEEE;
+margin: 0em;
+padding: 0em;
+font-family: Arial,'Segoe UI', Tahoma, Verdana, sans-serif;
+overflow-x: hidden;
+
+text-rendering: optimizeLegibility;
+-moz-osx-font-smoothing: grayscale;
+font-smoothing: antialiased;
+-webkit-font-smoothing: antialiased;
+text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+
+}
+
+nav
+{
+background: #2574A9;
+width: 100%;
+height: 50px;
+margin-top: 0px;
+}
+
+h1
+{
+margin-top: -1px;
+margin-left: 5px;
+padding: 10px;
+font-size:30px; 
+color:#EEEEEE;
+width: 25%;
+float: left;
+
+-webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+-moz-animation: fadein 4s; /* Firefox < 16 */
+-ms-animation: fadein 4s; /* Internet Explorer */
+-o-animation: fadein 4s; /* Opera < 12.1 */
+ animation: fadein 4s;
+}
+
+
+ul 
+{
+ width: 32%; 
+ list-style: none;
+ margin-top: 17.5px;
+ float: right;
+ margin-right: 0px;
+
+
+}
+
+li
+{
+    font-family: Arial,'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: #EEEEEE;
+    display: inline;
+    margin-left: 100px;
+    padding-left: 5%;
+ 
+}
+
+
+a
+{
+    color: #EEEEEE;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: rgb(185, 185, 185);
+}
+
+
+.container
+{
+    width: 100%;
+    height: 70%;
+    font-size: 0;
+    margin: 0;
+    padding: 0;
+    margin-right: 1.5px;
+    position: inherit;
+    background: #DADFE1;
+    margin-top: 0px;
+ 
+}
+
+.slideShow
+{
+border: 2px solid #95A5A6;
+border-bottom: 10px solid #95A5A6;
+margin-top: -50px;
+display: none;
+position: absolute;
+}
+
+img, .slideShow
+{
+    width: 100%;
+    height: 450px;
+
+}
+
+.descriptorText
+{
+ background: black;
+ opacity: 0.8; 
+ width: 100%;
+ height: 100px;
+ margin-top: -100px;
+}
+
+.descriptorText, h3{
+    color: black;
+    position: relative;
+}
+
+
+.bottom_body
+{
+    position: auto;
+    margin-top: 420px;
+    width: 100%;
+    height: 50px;
+}
+
+h2
+{
+ position: inherit; 
+ text-align: CENTER;
+ margin-top: 20px;
+ font-size: 35px;
+
+ -webkit-animation: movedown 3s; /* Safari, Chrome and Opera > 12.1 */
+ -moz-animation: movedown 3s; /* Firefox < 16 */
+  -ms-animation: movedown 3s; /* Internet Explorer */
+   -o-animation: movedown 3s; /* Opera < 12.1 */
+      animation: movedown 3s;
+
+}
+
+p
+{
+   text-align: CENTER;
+   margin-top: 20px;
+   color: black;
+}
+
+
+.product_images_class
+{
+    display: inline-flex;
+    position: absolute;
+    margin-top: 70px;
+    background: #3498DB;
+    border-bottom: 10px solid #95A5A6;
+}
+
+.product_images
+{
+
+margin-top: 100px;
+margin-left: 3%;
+padding: 20px;
+
+}
+
+.texts
+{
+margin-right: 30px;
+}
+
+.product_description
+{
+ margin-top: 10px;
+ font-weight: normal;
+ color: black;
+ font-size: 20px;
+ text-align:CENTER;
+}
+
+.product_description_sub
+{
+ margin-top: 10px;
+ font-weight: lighter;
+ color: black;
+ font-size: 15px;
+ text-align:CENTER;
+
+}
+
+
+.footer
+{
+ width: 100%;
+ margin-top: 565px;
+}
+
+.footer_text
+{
+ margin-right: 20px;
+ float: right;
+ margin-top: -10px;
+ font-size: 15px;
+ color: black;
+ padding-bottom: 20px;
+}
+
+.footer2
+{
+ width: 100%;
+ margin-top: 25px;
+}
+
+.footer_text2
+{
+ margin-right: 20px;
+ float: right;
+ margin-top: -10px;
+ font-size: 15px;
+ color: black;
+ padding-bottom: 20px;
+}
+
+
+
+
+
+/* Contact Page Specific */
+
+h4
+{
+  font-size: 30px;
+  margin-top: 300px;
+  text-align: CENTER;
+}
+
+.contact_image
+{
+    position: absolute;
+    border: 2px solid #95A5A6;
+    width: 100%;
+    margin-top: -53px;
+}
+
+
+h5
+{
+font-size: 20px;
+text-align: CENTER;
+margin-right: 250px;
+margin-top: 50px;
+}
+
+
+.response_query
+{
+ margin-left: 35px;
+ -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 4s; /* Firefox < 16 */
+    -ms-animation: fadein 4s; /* Internet Explorer */
+    -o-animation: fadein 4s; /* Opera < 12.1 */
+     animation: fadein 4s;
+    
+}
+
+.response_box
+{
+ margin-left: 45.5%;
+ margin-top: -55px;
+ -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+ -moz-animation: fadein 4s; /* Firefox < 16 */
+ -ms-animation: fadein 4s; /* Internet Explorer */
+ -o-animation: fadein 4s; /* Opera < 12.1 */
+  animation: fadein 4s;
+}
+
+.services_query
+{
+  
+    text-align: CENTER;
+    margin-top: 30px;
+    -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 4s; /* Firefox < 16 */
+    -ms-animation: fadein 4s; /* Internet Explorer */
+    -o-animation: fadein 4s; /* Opera < 12.1 */
+     animation: fadein 4s;
+  
+}
+
+.services_box
+{
+ text-align:CENTER;
+ -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+ -moz-animation: fadein 4s; /* Firefox < 16 */
+ -ms-animation: fadein 4s; /* Internet Explorer */
+ -o-animation: fadein 4s; /* Opera < 12.1 */
+  animation: fadein 4s;
+
+
+}
+
+.services_name
+{
+ margin-left: 20%;
+ -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+ -moz-animation: fadein 4s; /* Firefox < 16 */
+ -ms-animation: fadein 4s; /* Internet Explorer */
+ -o-animation: fadein 4s; /* Opera < 12.1 */
+  animation: fadein 4s;
+}
+
+.submit_button
+{
+    text-align: CENTER;
+    margin-top: 25px;
+    -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 4s; /* Firefox < 16 */
+    -ms-animation: fadein 4s; /* Internet Explorer */
+    -o-animation: fadein 4s; /* Opera < 12.1 */
+     animation: fadein 4s;
+}
+
+
+
+
+
+
+
+
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+
+    
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+
+
+
+
+@keyframes fadeint {
+    from { opacity: 0; }
+    to   { opacity: 0.8; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadeint {
+    from { opacity: 0; }
+    to   { opacity: 0.8; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadeint {
+    from { opacity: 0; }
+    to   { opacity: 0.8; }
+}
+
+
+
+
+
+
+
+@keyframes moveright {
+    from { margin-left: 10px ; }
+ 
+}
+
+/* Firefox < 16 */
+@-moz-keyframes moveright {
+    from { margin-left: 10px ; }
+
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes moveright {
+    from { margin-left: 10px ; }
+    
+}
+
+
+
+
+
+@keyframes example {
+    from { opacity: 0.5; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes example {
+    from { opacity: 0.5; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes example {
+    from { opacity: 0.7; }
+    to   { opacity: 5; }
+}
+
+
+
+
+@keyframes moveup {
+    from { margin-top: 150px; }
+ 
+}
+
+/* Firefox < 16 */
+@-moz-keyframes moveup {
+    from { margin-top: 150px; }
+   
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes moveup {
+    from { margin-top: 150px; }
+}
+
+
+
+
+
+@keyframes movein {
+    from { margin-left: -15px; }
+ 
+}
+
+/* Firefox < 16 */
+@-moz-keyframes movein {
+    from { margin-left: -15px; }
+   
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes movein {
+    from { margin-left: -15px; }
+}
+
+
+
+
+
+
+
+@keyframes movedown {
+    from { margin-top: -15px; }
+ 
+}
+
+/* Firefox < 16 */
+@-moz-keyframes movedown {
+    from { margin-top: -15px; }
+   
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes movedown {
+    from { margin-top: -15px; }
+}
+
+
+
+
+
